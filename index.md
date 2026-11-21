@@ -17,11 +17,11 @@ Social Uploader is a desktop publishing tool for creators. You pick one vertical
 
 ## Screenshots
 
-![Upload page: choose a video, type the title, pick TikTok and other platforms](/screenshots/upload.png)
+![Upload page: choose a video, type the title, pick TikTok and other platforms](/upload.png)
 
-![Settings page with the TikTok account connected](/screenshots/settings.png)
+![Settings page with the TikTok account connected](/settings.png)
 
-![Upload finished: TikTok and the other platforms show their results](/screenshots/result.png)
+![Upload finished: TikTok and the other platforms show their results](/result.png)
 
 ## What it does with TikTok
 
