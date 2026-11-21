@@ -4,6 +4,8 @@ title: Social Uploader
 
 <p><img src="/logo-rounded-1024.png" alt="Social Uploader logo" width="96" height="96"></p>
 
+# Social Uploader
+
 **Upload one video. Publish it everywhere.**
 
 Social Uploader is a desktop publishing tool for creators. You pick one vertical video, type the title once, and it posts the video to your own TikTok account and your other channels (YouTube Shorts, Facebook Page Reels, Threads, Zalo OA) in one click, with live progress for each.
