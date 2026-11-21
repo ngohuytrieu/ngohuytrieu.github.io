@@ -1,3 +1,7 @@
+---
+title: Social Uploader
+---
+
 Social Uploader is a personal publishing tool. Its owner uploads one vertical video once, and it posts that video to the owner's own TikTok account and other channels (Facebook Page Reels, YouTube Shorts, Threads, Zalo OA) in one click.
 
 ## What it does with TikTok
