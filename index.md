@@ -2,32 +2,54 @@
 title: Social Uploader
 ---
 
-Social Uploader is a personal publishing tool. Its owner uploads one vertical video once, and it posts that video to the owner's own TikTok account and other channels (Facebook Page Reels, YouTube Shorts, Threads, Zalo OA) in one click.
+<p><img src="/logo-rounded-1024.png" alt="Social Uploader logo" width="96" height="96"></p>
+
+**Upload one video. Publish it everywhere.**
+
+Social Uploader is a desktop publishing tool for creators. You pick one vertical video, type the title once, and it posts the video to your own TikTok account and your other channels (YouTube Shorts, Facebook Page Reels, Threads, Zalo OA) in one click, with live progress for each.
+
+## Features
+
+- **One upload, five platforms.** TikTok, YouTube Shorts, Facebook Page Reels, Threads and Zalo OA from a single form.
+- **TikTok draft or direct post.** Send the video to your TikTok inbox to finish in the app, or post it directly with the visibility you choose.
+- **Live progress.** Each platform shows its upload status and a link to the posted video.
+- **Your data stays with you.** The app runs on your own computer. Tokens and videos never go to a third-party server.
+
+## Screenshots
+
+![Upload page: choose a video, type the title, pick TikTok and other platforms](/screenshots/upload.png)
+
+![Settings page with the TikTok account connected](/screenshots/settings.png)
+
+![Upload finished: TikTok and the other platforms show their results](/screenshots/result.png)
 
 ## What it does with TikTok
 
-Social Uploader uses the official [TikTok Content Posting API](https://developers.tiktok.com/doc/content-posting-api-get-started). After the owner signs in with TikTok and clicks **Allow**, it can:
+Social Uploader uses the official [TikTok Content Posting API](https://developers.tiktok.com/doc/content-posting-api-get-started) and asks for these permissions:
 
-- **Read basic profile info** (`user.info.basic`): display name and avatar, to show which TikTok account is connected.
-- **Upload a video as a draft** (`video.upload`): the video goes to the TikTok inbox. The caption and visibility are set, and the video is posted, in the TikTok app.
-- **Post a video directly** (`video.publish`): only when direct posting is chosen. The app reads the privacy options the account allows, posts with the chosen title and visibility, then checks the upload status.
+| Permission | Why |
+|---|---|
+| `user.info.basic` | Show the display name and avatar of the connected TikTok account. |
+| `video.upload` | Send your video to your TikTok inbox as a draft. You add the caption and post it in the TikTok app. |
+| `video.publish` | Post your video directly, only when you choose direct posting, with the title and visibility you picked. |
 
-It only posts videos the owner uploads and confirms. It does not read followers, messages, likes or anyone else's content.
+It only posts videos you upload and confirm. It does not read your followers, messages, likes, comments or anyone else's content.
 
-## How it works
+## How to connect TikTok
 
-1. Social Uploader runs on the owner's own computer.
-2. In **Settings**, the owner connects TikTok with **Get credentials**. TikTok shows its own sign-in and consent screen.
-3. On the **Upload** page, the owner picks a video, types a title, chooses TikTok (draft or direct post) and the other channels, then clicks **Upload**.
-4. Each channel shows its own progress and a link to the posted video.
+1. Open **Settings** and click **Get credentials** on the TikTok card.
+2. Sign in on TikTok's own page and click **Allow**.
+3. The TikTok card shows your account as connected.
+4. On the **Upload** page, pick a video, type the title, choose **TikTok** (draft or direct post), then click **Upload**.
 
-Access tokens and videos stay on the owner's computer. Nothing is sent to any other server. See the [Privacy Policy](/privacy) for details.
+You can disconnect at any time in TikTok under **Settings and privacy > Security > Manage app permissions**.
 
-## Legal
+## Legal and contact
 
 - [Privacy Policy](/privacy)
 - [Terms of Service](/terms)
+- Contact: [trieu.ngohuy@gmail.com](mailto:trieu.ngohuy@gmail.com)
 
-Contact: [trieu.ngohuy@gmail.com](mailto:trieu.ngohuy@gmail.com)
+---
 
-Social Uploader is an independent project. It is not affiliated with or endorsed by TikTok or ByteDance.
+<small>&copy; 2026 Social Uploader. Not affiliated with or endorsed by TikTok, ByteDance, Google, Meta or Zalo. · [Privacy](/privacy) · [Terms](/terms)</small>
